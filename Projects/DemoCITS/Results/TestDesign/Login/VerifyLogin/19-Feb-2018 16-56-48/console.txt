@@ -1,0 +1,72 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_141
+java.home            : C:\Program Files\Java\jre1.8.0_141
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Feb 19 16:56:48 GMT 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Login] [TestCase: VerifyLogin] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 36933
+Only local connections are allowed.
+2018-02-19 16:56:53:02S +0000 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://newtours.demoaut.com/mercurysignon.php | Conditon:  | @19-Feb-2018 16:56:53.053
+[DONE]   | Opened Url: http://newtours.demoaut.com/mercurysignon.php
+
+===================================================================================================
+
+Step:2   | Object: userName | Action: Set | Input: @mercury | Conditon:  | @19-Feb-2018 16:56:55.055
+Using @name [userName], Object 'userName' Found in 35 ms
+[DONE]   | Entered Text 'mercury' on 'userName'
+
+===================================================================================================
+
+Step:3   | Object: password | Action: setEncrypted | Input: @bWVyY3VyeQ== Enc | Conditon:  | @19-Feb-2018 16:56:55.055
+Using @name [password], Object 'password' Found in 29 ms
+[DONE]   | Entered Encrypted Text bWVyY3VyeQ== on password
+
+===================================================================================================
+
+Step:4   | Object: login | Action: Click | Input:  | Conditon:  | @19-Feb-2018 16:56:55.055
+Using @name [login], Object 'login' Found in 33 ms
+[DONE]   | Clicking on login
+
+===================================================================================================
+
+Step:5   | Object: Use our Flight Finder to searc | Action: assertElementTextContains | Input: @Use our Flight Finder to search for the lowest fare on participating airlines | Conditon:  | @19-Feb-2018 16:57:01.001
+Using @relative_xpath [//td[2]/table/tbody/tr[3]/td/font], Object 'Use our Flight Finder to searc' Found in 30 ms
+[PASS]   | Use our Flight Finder to searc's Text CONTAINS Use our Flight Finder to search for the lowest fare on participating airlines 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Login:VerifyLogin
+Executed Steps       : 5
+Passed Steps         : 5
+Failed Steps         : 0
+Time Taken           : 00:00:15
+-----------------------------------------------------
+
+Run Finished on Mon Feb 19 16:57:03 GMT 2018
+-----------------------------------------------------
+ExecutionDate        : 19-Feb-2018 16-56-48
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:15
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITS\Results\TestDesign\Login\VerifyLogin\19-Feb-2018 16-56-48\summary.html
+-----------------------------------------------------

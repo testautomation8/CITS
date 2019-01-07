@@ -1,0 +1,134 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_172
+java.home            : C:\Program Files\Java\jre1.8.0_172
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jun 14 13:10:49 BST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Login] [TestCase: NewTestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Remote Driver
+2018-06-14 13:10:49:06S +0100 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, chromeOptions: {args: [--disable-notifications, --start-maximized], extensions: []}, version: }
+Command duration or timeout: 19 milliseconds
+org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, chromeOptions: {args: [--disable-notifications, --start-maximized], extensions: []}, version: }
+Command duration or timeout: 19 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:175)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.createRemoteDriver(WebDriverFactory.java:326)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:247)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:167)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.createRemote(WebDriverFactory.java:153)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:63)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:151)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:121)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, chromeOptions: {args: [--disable-notifications, --start-maximized], extensions: []}, version: }
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LTIBUK05115', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:117)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:84)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:564)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:110)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.seleniumhq.jetty9.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.seleniumhq.jetty9.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	... 1 more
+
+[DEBUG]   | Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, chromeOptions: {args: [--disable-notifications, --start-maximized], extensions: []}, version: }
+Command duration or timeout: 19 milliseconds
+
+===================================================================================================
+
+2018-06-14 13:10:49:06S +0100 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:188)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:176)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:133)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+---------------------------------------------------
+Testcase Name        : Login:NewTestCase
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Run Finished on Thu Jun 14 13:10:50 BST 2018
+-----------------------------------------------------
+ExecutionDate        : 14-Jun-2018 13-10-49
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:00
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITS\Results\TestDesign\Login\NewTestCase\14-Jun-2018 13-10-49\summary.html
+-----------------------------------------------------

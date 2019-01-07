@@ -1,0 +1,39 @@
+2018-01-08 12:45:11:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-01-08 12:45:11:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-01-08 12:47:44:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-01-08 17:19:04:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-01-08 17:19:04:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-01-08 17:19:55:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-01-08 17:27:42:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-01-08 17:27:42:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-01-08 17:28:36:01S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-02-19 16:46:16:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-02-19 16:46:16:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-02-19 16:46:54:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-02-19 16:49:02:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-02-19 16:49:02:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-02-19 16:50:19:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-02-19 16:52:49:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-02-19 16:52:49:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-02-19 16:53:20:02S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-03-05 15:50:25:03S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2018-03-05 15:50:25:03S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-03-05 15:50:51:03S +0000 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-06-14 13:09:20:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-06-14 13:09:20:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-06-14 13:09:45:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-06-14 13:14:58:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-06-14 13:14:58:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-06-14 13:15:37:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-06-14 13:15:40:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-06-14 13:15:40:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-06-14 13:16:13:06S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-09-20 13:51:35:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-20 13:51:35:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-09-20 13:51:49:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-09-20 13:53:39:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-20 13:53:39:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-09-20 13:53:44:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-09-20 13:53:45:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-09-20 13:53:45:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-09-20 13:54:47:09S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped

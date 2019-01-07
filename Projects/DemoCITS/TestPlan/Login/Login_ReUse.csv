@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,userName,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:userName,,Sign-on_
+2,password,Enter the Decrypted value [<Data>] in the Field [<Object>],Set,TestData0:password,,Sign-on_
+3,login,"Click the [<Object>] ",Click,,,Sign-on_

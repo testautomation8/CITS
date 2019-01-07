@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Navigate to application Home Page,Open,@http://newtours.demoaut.com/mercurysignon.php,,
+2,Execute,,Login:Login_ReUse,,,
+3,VerifyLogin,Verify Login,assertElementTextContains,@Welcome back to Mercury Tours! Enter your user information to access the member-only areas of this site. If you don't have a log-in,,Find

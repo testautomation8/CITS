@@ -1,0 +1,74 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_141
+java.home            : C:\Program Files\Java\jre1.8.0_141
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed May 02 14:19:26 BST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Login] [TestCase: VerifyLogin_Successful] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[main] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 35767
+Only local connections are allowed.
+2018-05-02 14:19:34:05S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://newtours.demoaut.com/mercurysignon.php | Conditon:  | @02-May-2018 14:19:34.034
+[DONE]   | Opened Url: http://newtours.demoaut.com/mercurysignon.php
+
+===================================================================================================
+
+Step:1   | Object: userName | Action: Set | Input: TestData0:userName | Conditon:  | @02-May-2018 14:19:36.036
+Using @name [userName], Object 'userName' Found in 63 ms
+[DONE]   | Entered Text 'mercury' on 'userName'
+
+===================================================================================================
+
+Step:2   | Object: password | Action: Set | Input: TestData0:password | Conditon:  | @02-May-2018 14:19:36.036
+Using @name [password], Object 'password' Found in 53 ms
+[DONE]   | Entered Text 'mercury' on 'password'
+
+===================================================================================================
+
+Step:3   | Object: login | Action: Click | Input:  | Conditon:  | @02-May-2018 14:19:37.037
+Using @name [login], Object 'login' Found in 54 ms
+[DONE]   | Clicking on login
+
+===================================================================================================
+
+Step:3   | Object: VerifyLogin | Action: assertElementTextContains | Input: @Use our Flight Finder to search for the lowest fare on participating airlines | Conditon:  | @02-May-2018 14:19:41.041
+2018-05-02 14:19:41:05S +0100 [SEVERE] com.cognizant.cognizantits.engine.drivers.findObjectBy.support.ByObjectProp getBy:Find logic not implemented for - tagName
+Using @xpath [/html/body], Object 'VerifyLogin' Found in 52 ms
+[PASS]   | VerifyLogin's Text CONTAINS Use our Flight Finder to search for the lowest fare on participating airlines 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Login:VerifyLogin_Successful
+Executed Steps       : 5
+Passed Steps         : 5
+Failed Steps         : 0
+Time Taken           : 00:00:17
+-----------------------------------------------------
+
+Run Finished on Wed May 02 14:19:44 BST 2018
+-----------------------------------------------------
+ExecutionDate        : 02-May-2018 14-19-26
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:17
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITS\Results\TestDesign\Login\VerifyLogin_Successful\02-May-2018 14-19-26\summary.html
+-----------------------------------------------------

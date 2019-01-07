@@ -1,0 +1,48 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_141
+java.home            : C:\Program Files\Java\jre1.8.0_141
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Feb 19 16:45:47 GMT 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Login] [TestCase: VerifyLogin] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 38714
+Only local connections are allowed.
+2018-02-19 16:45:54:02S +0000 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://newtours.demoaut.com/ | Conditon:  | @19-Feb-2018 16:45:54.054
+[DONE]   | Opened Url: http://newtours.demoaut.com/
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Login:VerifyLogin
+Executed Steps       : 1
+Passed Steps         : 1
+Failed Steps         : 0
+Time Taken           : 00:00:09
+-----------------------------------------------------
+
+Run Finished on Mon Feb 19 16:45:57 GMT 2018
+-----------------------------------------------------
+ExecutionDate        : 19-Feb-2018 16-45-47
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:09
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\DemoCITS\Results\TestDesign\Login\VerifyLogin\19-Feb-2018 16-45-47\summary.html
+-----------------------------------------------------
