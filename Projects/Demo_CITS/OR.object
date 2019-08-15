@@ -1,0 +1,186 @@
+<Root type="OR" ref="Demo_CITS">
+  <Page title="Selenium Easy Demo - Simple Form to Automate using Selenium" ref="Simple_Form">
+    <ObjectGroup ref="Enter message">
+      <Object frame="" ref="Enter message">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="user-message" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Please enter your Message']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="div.form-group > #user-message" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Show Message">
+      <Object frame="" ref="Show Message">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div/div[2]/form/button)[1]" ref="xpath" pref="5"/>
+        <Property value="btn btn-default" ref="class" pref="6"/>
+        <Property value="#get-input > button.btn.btn-default" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Enter a">
+      <Object frame="" ref="Enter a">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="sum1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//input[@placeholder='Enter value'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div[2]/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="#sum1" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Enter b">
+      <Object frame="" ref="Enter b">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="sum2" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//input[@placeholder='Enter value'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div[2]/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="#sum2" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Get Total">
+      <Object frame="" ref="Get Total">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div[2]/div[2]/form/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-default" ref="class" pref="6"/>
+        <Property value="#gettotal > button.btn.btn-default" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="This is CITS demonstration">
+      <Object frame="" ref="This is CITS demonstration">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="display" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='This is CITS demonstration']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div/div[2]/div/span)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#display" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Result">
+      <Object frame="" ref="Result">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="displayvalue" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='5']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div[2]/div[2]/div/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#displayvalue" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Checkbox">
+    <ObjectGroup ref="Success - Check box is checked">
+      <Object frame="" ref="Success - Check box is checked">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="txtAge" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Success - Check box is checked']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div/div[2]/div[2])[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#txtAge" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="cb1-element">
+      <Object frame="" ref="cb1-element">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div[2]/div/div[2]/div[2]/div[2]/div/label/input" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div[2]/div[2]/div/label/input)[1]" ref="xpath" pref="5"/>
+        <Property value="cb1-element" ref="class" pref="6"/>
+        <Property value="html > body > #easycont > div.row > div.col-md-6.text-left > div.panel.panel-default > div.panel-body > div.checkbox > label > input.cb1-element" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="cb1-element1">
+      <Object frame="" ref="cb1-element1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/label/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div[2]/div[2]/div[2]/label/input" ref="xpath" pref="5"/>
+        <Property value="cb1-element" ref="class" pref="6"/>
+        <Property value="html > body > #easycont > div.row > div.col-md-6.text-left > div.panel.panel-default > div.panel-body > div.checkbox > label > input.cb1-element" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="cb1-element2">
+      <Object frame="" ref="cb1-element2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[3]/label/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div[2]/div[2]/div[3]/label/input" ref="xpath" pref="5"/>
+        <Property value="cb1-element" ref="class" pref="6"/>
+        <Property value="html > body > #easycont > div.row > div.col-md-6.text-left > div.panel.panel-default > div.panel-body > div.checkbox > label > input.cb1-element" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="cb1-element3">
+      <Object frame="" ref="cb1-element3">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[4]/label/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/div[2]/div[2]/div[2]/div[4]/label/input" ref="xpath" pref="5"/>
+        <Property value="cb1-element" ref="class" pref="6"/>
+        <Property value="html > body > #easycont > div.row > div.col-md-6.text-left > div.panel.panel-default > div.panel-body > div.checkbox > label > input.cb1-element" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Check All">
+      <Object frame="" ref="Check All">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="check1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Check All']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div[2]/div[2]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary" ref="class" pref="6"/>
+        <Property value="#check1" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Uncheck All">
+      <Object frame="" ref="Uncheck All">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="check1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Uncheck All']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div[2]/div[2]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary" ref="class" pref="6"/>
+        <Property value="#check1" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="isAgeSelected">
+      <Object frame="" ref="isAgeSelected">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="isAgeSelected" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div[2]/div/div[2]/div/div[2]/div/label/input" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/div[2]/div/div[2]/div/label/input)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#isAgeSelected" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -1,0 +1,10 @@
+Jenkins/
+*.log
+Installation.md
+logs/
+Tools/
+Extensions/
+Web/
+log.txt
+log-0.txt
+StartGrid.bat

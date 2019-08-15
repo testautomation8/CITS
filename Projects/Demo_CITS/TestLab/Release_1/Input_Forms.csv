@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Input_Forms,Simple_Form_Demo,Single,Passed,Chrome,Default,Any
+true,Input_Forms,CheckBox_Demo,Single,Passed,Chrome,Default,Any

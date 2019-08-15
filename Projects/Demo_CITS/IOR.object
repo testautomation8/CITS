@@ -1,0 +1,16 @@
+<Root type="OR" ref="Demo_CITS">
+  <Page ref="Checkbox" Url="SeleniumEasy.png">
+    <ObjectGroup ref="SeleniumEasyLogo">
+      <Object ref="SeleniumEasyLogo">
+        <Property value="19,93,395,111" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="0,0" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="SeleniumEasy.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="SeleniumEasyLogo.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

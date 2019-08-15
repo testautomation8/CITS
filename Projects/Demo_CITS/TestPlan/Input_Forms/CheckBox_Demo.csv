@@ -1,0 +1,13 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.seleniumeasy.com/test/basic-checkbox-demo.html,,
+2,SeleniumEasyLogo,Assert if the image [<Data>] is present on the screen.,imgAssertImage,,,Checkbox
+"//3",Browser,To Test the Accessibility of the Page using aXe,testAccessibility,@Demo Accessbility Report,,
+"//4",Browser,Capture the PageTimings for the Page [<Data>],capturePageTimings,@Landing Page,,
+5,isAgeSelected,"Click the [<Object>] ",Click,,,Checkbox
+6,Success - Check box is checked,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Success - Check box is checked,,Checkbox
+7,cb1-element,"Click the [<Object>] ",Click,,,Checkbox
+8,cb1-element1,"Click the [<Object>] ",Click,,,Checkbox
+9,cb1-element2,"Click the [<Object>] ",Click,,,Checkbox
+10,cb1-element3,"Click the [<Object>] ",Click,,,Checkbox
+11,Check All,"Click the [<Object>] ",Click,,,Checkbox
+12,Uncheck All,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Uncheck All,,Checkbox

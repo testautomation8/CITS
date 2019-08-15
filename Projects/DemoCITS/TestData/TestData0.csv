@@ -1,3 +1,0 @@
-Scenario,Flow,Iteration,SubIteration,userName,password
-Login,VerifyLogin_Successful,1,1,mercury,mercury
-Login,VerifyLogin_UnSuccessful,1,1,mercury,demo

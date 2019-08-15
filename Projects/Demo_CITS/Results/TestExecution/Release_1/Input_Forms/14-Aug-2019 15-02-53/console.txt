@@ -1,0 +1,112 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_202
+java.home            : C:\Program Files\Java\jre1.8.0_202
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Aug 14 15:02:54 BST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:Input_Forms] [TestCase: CheckBox_Demo] [Description: CheckBox_Demo] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//Release_1/Input_Forms]
+----------------------------------------------------------
+Initializing Report
+[main] INFO com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 10290
+Only local connections are allowed.
+2019-08-14 15:02:59:08S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.seleniumeasy.com/test/basic-checkbox-demo.html | Conditon:  | @14-Aug-2019 15:02:59.059
+[DONE]   | Opened Url: https://www.seleniumeasy.com/test/basic-checkbox-demo.html
+
+===================================================================================================
+
+Step:2   | Object: SeleniumEasyLogo | Action: imgAssertImage | Input:  | Conditon:  | @14-Aug-2019 15:03:05.005
+[PASS]   | The Image SeleniumEasyLogo Exists on screen
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: testAccessibility | Input: @Demo Accessbility Report | Conditon:  | @14-Aug-2019 15:03:09.009
+[WARNING]   | Demo Accessbility Report - Failed 3 violations found 
+
+===================================================================================================
+
+Step:5   | Object: isAgeSelected | Action: Click | Input:  | Conditon:  | @14-Aug-2019 15:03:10.010
+Using @id [isAgeSelected], Object 'isAgeSelected' Found in 59 ms
+[DONE]   | Clicking on isAgeSelected
+
+===================================================================================================
+
+Step:6   | Object: Success - Check box is checked | Action: assertElementTextContains | Input: @Success - Check box is checked | Conditon:  | @14-Aug-2019 15:03:10.010
+Using @id [txtAge], Object 'Success - Check box is checked' Found in 56 ms
+[PASS]   | Success - Check box is checked's Text CONTAINS Success - Check box is checked 
+
+===================================================================================================
+
+Step:7   | Object: cb1-element | Action: Click | Input:  | Conditon:  | @14-Aug-2019 15:03:13.013
+Using @xpath [(/html/body/div[2]/div/div[2]/div[2]/div[2]/div/label/input)[1]], Object 'cb1-element' Found in 33 ms
+[DONE]   | Clicking on cb1-element
+
+===================================================================================================
+
+Step:8   | Object: cb1-element1 | Action: Click | Input:  | Conditon:  | @14-Aug-2019 15:03:13.013
+Using @relative_xpath [//div[2]/label/input], Object 'cb1-element1' Found in 25 ms
+[DONE]   | Clicking on cb1-element1
+
+===================================================================================================
+
+Step:9   | Object: cb1-element2 | Action: Click | Input:  | Conditon:  | @14-Aug-2019 15:03:13.013
+Using @relative_xpath [//div[3]/label/input], Object 'cb1-element2' Found in 18 ms
+[DONE]   | Clicking on cb1-element2
+
+===================================================================================================
+
+Step:10  | Object: cb1-element3 | Action: Click | Input:  | Conditon:  | @14-Aug-2019 15:03:13.013
+Using @relative_xpath [//div[4]/label/input], Object 'cb1-element3' Found in 19 ms
+[DONE]   | Clicking on cb1-element3
+
+===================================================================================================
+
+Step:11  | Object: Check All | Action: Click | Input:  | Conditon:  | @14-Aug-2019 15:03:14.014
+Using @id [check1], Object 'Check All' Found in 18 ms
+[DONE]   | Clicking on Check All
+
+===================================================================================================
+
+Step:12  | Object: Uncheck All | Action: assertElementTextContains | Input: @Uncheck All | Conditon:  | @14-Aug-2019 15:03:14.014
+Using @id [check1], Object 'Uncheck All' Found in 15 ms
+[PASS]   | Uncheck All's Text CONTAINS Uncheck All 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Input_Forms:CheckBox_Demo
+Executed Steps       : 11
+Passed Steps         : 10
+Failed Steps         : 1
+Time Taken           : 00:00:24
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Wed Aug 14 15:03:18 BST 2019
+-----------------------------------------------------
+ExecutionDate        : 14-Aug-2019 15-02-53
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:24
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\Demo_CITS\Results\TestExecution\Release_1\Input_Forms\14-Aug-2019 15-02-53\summary.html
+-----------------------------------------------------
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - D:\cognizant-intelligent-test-scripter-1.1\Projects\Demo_CITS\Results\TestExecution\Release_1\Input_Forms\14-Aug-2019 15-02-53\summary.html
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [D:\cognizant-intelligent-test-scripter-1.1\Projects\Demo_CITS\Results\TestExecution\Release_1\Input_Forms\14-Aug-2019 15-02-53\summary.html]

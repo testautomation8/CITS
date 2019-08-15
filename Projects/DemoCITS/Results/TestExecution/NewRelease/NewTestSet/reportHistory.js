@@ -1,1 +1,0 @@
-var reportName="NewRelease:NewTestSet";var dataSet=[{"PassTC":"0","FailTC":"1","ReportPath":"23-May-2018 14-30-38\\summary.html","ExecTC":"1","ExecutionDate":"23-May-2018 14-30-38","ExecTime":"00:00:08"},{"PassTC":"1","FailTC":"0","ReportPath":"23-May-2018 14-32-10\\summary.html","ExecTC":"1","ExecutionDate":"23-May-2018 14-32-10","ExecTime":"00:00:45"}]

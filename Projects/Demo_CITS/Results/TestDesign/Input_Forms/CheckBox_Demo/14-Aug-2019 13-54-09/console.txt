@@ -1,0 +1,106 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_202
+java.home            : C:\Program Files\Java\jre1.8.0_202
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Aug 14 13:54:09 BST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:Input_Forms] [TestCase: CheckBox_Demo] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 46633
+Only local connections are allowed.
+2019-08-14 13:54:16:08S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.seleniumeasy.com/test/basic-checkbox-demo.html | Conditon:  | @14-Aug-2019 13:54:16.016
+[DONE]   | Opened Url: https://www.seleniumeasy.com/test/basic-checkbox-demo.html
+
+===================================================================================================
+
+Step:2   | Object: SeleniumEasyLogo | Action: imgAssertImage | Input:  | Conditon:  | @14-Aug-2019 13:54:22.022
+[PASS]   | The Image SeleniumEasyLogo Exists on screen
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: testAccessibility | Input: @Demo Accessbility Report | Conditon:  | @14-Aug-2019 13:54:25.025
+[WARNING]   | Demo Accessbility Report - Failed 3 violations found 
+
+===================================================================================================
+
+Step:4   | Object: isAgeSelected | Action: Click | Input:  | Conditon:  | @14-Aug-2019 13:54:26.026
+Using @id [isAgeSelected], Object 'isAgeSelected' Found in 50 ms
+[DONE]   | Clicking on isAgeSelected
+
+===================================================================================================
+
+Step:5   | Object: Success - Check box is checked | Action: assertElementTextContains | Input: @Success - Check box is checked | Conditon:  | @14-Aug-2019 13:54:27.027
+Using @id [txtAge], Object 'Success - Check box is checked' Found in 54 ms
+[PASS]   | Success - Check box is checked's Text CONTAINS Success - Check box is checked 
+
+===================================================================================================
+
+Step:6   | Object: cb1-element | Action: Click | Input:  | Conditon:  | @14-Aug-2019 13:54:30.030
+Using @xpath [(/html/body/div[2]/div/div[2]/div[2]/div[2]/div/label/input)[1]], Object 'cb1-element' Found in 46 ms
+[DONE]   | Clicking on cb1-element
+
+===================================================================================================
+
+Step:7   | Object: cb1-element1 | Action: Click | Input:  | Conditon:  | @14-Aug-2019 13:54:30.030
+Using @relative_xpath [//div[2]/label/input], Object 'cb1-element1' Found in 30 ms
+[DONE]   | Clicking on cb1-element1
+
+===================================================================================================
+
+Step:8   | Object: cb1-element2 | Action: Click | Input:  | Conditon:  | @14-Aug-2019 13:54:30.030
+Using @relative_xpath [//div[3]/label/input], Object 'cb1-element2' Found in 20 ms
+[DONE]   | Clicking on cb1-element2
+
+===================================================================================================
+
+Step:9   | Object: cb1-element3 | Action: Click | Input:  | Conditon:  | @14-Aug-2019 13:54:30.030
+Using @relative_xpath [//div[4]/label/input], Object 'cb1-element3' Found in 25 ms
+[DONE]   | Clicking on cb1-element3
+
+===================================================================================================
+
+Step:10  | Object: Check All | Action: Click | Input:  | Conditon:  | @14-Aug-2019 13:54:30.030
+Using @id [check1], Object 'Check All' Found in 21 ms
+[DONE]   | Clicking on Check All
+
+===================================================================================================
+
+Step:11  | Object: Uncheck All | Action: assertElementTextContains | Input: @Uncheck All | Conditon:  | @14-Aug-2019 13:54:30.030
+Using @id [check1], Object 'Uncheck All' Found in 15 ms
+[PASS]   | Uncheck All's Text CONTAINS Uncheck All 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Input_Forms:CheckBox_Demo
+Executed Steps       : 11
+Passed Steps         : 10
+Failed Steps         : 1
+Time Taken           : 00:00:25
+-----------------------------------------------------
+
+Run Finished on Wed Aug 14 13:54:35 BST 2019
+-----------------------------------------------------
+ExecutionDate        : 14-Aug-2019 13-54-09
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:25
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\Demo_CITS\Results\TestDesign\Input_Forms\CheckBox_Demo\14-Aug-2019 13-54-09\summary.html
+-----------------------------------------------------

@@ -1,2 +1,0 @@
-Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
-true,Login,VerifyLogin_Successful,Single,Passed,Chrome,Default,Any

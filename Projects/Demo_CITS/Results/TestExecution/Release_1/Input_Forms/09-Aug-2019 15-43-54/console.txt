@@ -1,0 +1,367 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_202
+java.home            : C:\Program Files\Java\jre1.8.0_202
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Aug 09 15:43:54 BST 2019
+Loading Browser Profile
+Loading RunManager
+[Scenario:Input_Forms] [TestCase: Simple_Form_Demo] [Description: Simple_Form_Demo] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Input_Forms] [TestCase: CheckBox_Demo] [Description: CheckBox_Demo] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Input_Forms] [TestCase: NewTestCase] [Description: NewTestCase] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[3] TestCases selected for execution from [//Release_1/Input_Forms]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 8850
+Only local connections are allowed.
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 45173
+Only local connections are allowed.
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 14497
+Only local connections are allowed.
+2019-08-09 15:44:05:08S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.seleniumeasy.com/test/basic-first-form-demo.html | Conditon:  | @09-Aug-2019 15:44:05.005
+2019-08-09 15:44:06:08S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://google.co.uk | Conditon:  | @09-Aug-2019 15:44:06.006
+2019-08-09 15:44:07:08S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.seleniumeasy.com/test/basic-checkbox-demo.html | Conditon:  | @09-Aug-2019 15:44:07.007
+[DONE]   | Opened Url: http://google.co.uk
+
+===================================================================================================
+
+Step:2   | Object: Search | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:11.011
+[DONE]   | Opened Url: https://www.seleniumeasy.com/test/basic-checkbox-demo.html
+
+===================================================================================================
+
+Step:2   | Object: isAgeSelected | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:11.011
+Using @id [isAgeSelected], Object 'isAgeSelected' Found in 101 ms
+Using @name [q], Object 'Search' Found in 521 ms
+[DONE]   | Opened Url: https://www.seleniumeasy.com/test/basic-first-form-demo.html
+
+===================================================================================================
+
+Step:2   | Object: Enter message | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:12.012
+[DONE]   | Clicking on isAgeSelected
+
+===================================================================================================
+
+Step:3   | Object: Success - Check box is checked | Action: assertElementTextContains | Input: @Success - Check box is checked | Conditon:  | @09-Aug-2019 15:44:12.012
+Using @id [user-message], Object 'Enter message' Found in 279 ms
+Using @id [txtAge], Object 'Success - Check box is checked' Found in 99 ms
+[PASS]   | Success - Check box is checked's Text CONTAINS Success - Check box is checked 
+
+===================================================================================================
+
+[DONE]   | Clicking on Search
+
+===================================================================================================
+
+Step:3   | Object: Search | Action: Set | Input: @testing | Conditon:  | @09-Aug-2019 15:44:14.014
+[DONE]   | Clicking on Enter message
+
+===================================================================================================
+
+Step:3   | Object: Enter message | Action: Set | Input: Input_Forms:Message | Conditon:  | @09-Aug-2019 15:44:14.014
+Using @id [user-message], Object 'Enter message' Found in 113 ms
+Using @name [q], Object 'Search' Found in 213 ms
+[DONE]   | Entered Text 'This is CITS demonstration' on 'Enter message'
+
+===================================================================================================
+
+Step:4   | Object: Show Message | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:16.016
+[DONE]   | Entered Text 'testing' on 'Search'
+
+===================================================================================================
+
+Step:4   | Object: Google Search | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:17.017
+Using @relative_xpath [(//button[@type='button'])[2]], Object 'Show Message' Found in 59 ms
+Using @name [btnK], Object 'Google Search' Found in 96 ms
+[DONE]   | Clicking on Show Message
+
+===================================================================================================
+
+Step:5   | Object: This is CITS demonstration | Action: assertElementTextContains | Input: Input_Forms:Message | Conditon:  | @09-Aug-2019 15:44:17.017
+Using @id [display], Object 'This is CITS demonstration' Found in 47 ms
+[PASS]   | This is CITS demonstration's Text CONTAINS This is CITS demonstration 
+
+===================================================================================================
+
+Step:4   | Object: cb1-element | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:18.018
+Using @xpath [(/html/body/div[2]/div/div[2]/div[2]/div[2]/div/label/input)[1]], Object 'cb1-element' Found in 130 ms
+[DONE]   | Clicking on cb1-element
+
+===================================================================================================
+
+Step:5   | Object: cb1-element1 | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:19.019
+Using @relative_xpath [//div[2]/label/input], Object 'cb1-element1' Found in 117 ms
+[DONE]   | Clicking on cb1-element1
+
+===================================================================================================
+
+Step:6   | Object: cb1-element2 | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:20.020
+Using @relative_xpath [//div[3]/label/input], Object 'cb1-element2' Found in 149 ms
+[DONE]   | Clicking on Google Search
+
+===================================================================================================
+
+[DONE]   | Clicking on cb1-element2
+
+===================================================================================================
+
+Step:7   | Object: cb1-element3 | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:21.021
+Using @relative_xpath [//div[4]/label/input], Object 'cb1-element3' Found in 37 ms
+[DONE]   | Clicking on cb1-element3
+
+===================================================================================================
+
+Step:8   | Object: Check All | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:21.021
+Using @id [check1], Object 'Check All' Found in 51 ms
+[DONE]   | Clicking on Check All
+
+===================================================================================================
+
+Step:9   | Object: Uncheck All | Action: assertElementTextContains | Input: @Uncheck All | Conditon:  | @09-Aug-2019 15:44:21.021
+Using @id [check1], Object 'Uncheck All' Found in 27 ms
+[PASS]   | Uncheck All's Text CONTAINS Uncheck All 
+
+===================================================================================================
+
+Step:6   | Object: Enter a | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:22.022
+Using @id [sum1], Object 'Enter a' Found in 66 ms
+[DONE]   | Clicking on Enter a
+
+===================================================================================================
+
+Step:7   | Object: Enter a | Action: Set | Input: Input_Forms:Value_a | Conditon:  | @09-Aug-2019 15:44:23.023
+Using @id [sum1], Object 'Enter a' Found in 107 ms
+[DONE]   | Entered Text '2' on 'Enter a'
+
+===================================================================================================
+
+Step:8   | Object: Enter b | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:23.023
+Using @id [sum2], Object 'Enter b' Found in 27 ms
+[DONE]   | Clicking on Enter b
+
+===================================================================================================
+
+Step:9   | Object: Enter b | Action: Set | Input: Input_Forms:Value_b | Conditon:  | @09-Aug-2019 15:44:23.023
+Using @id [sum2], Object 'Enter b' Found in 20 ms
+[DONE]   | Entered Text '3' on 'Enter b'
+
+===================================================================================================
+
+Step:10  | Object: Get Total | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:24.024
+Using @relative_xpath [(//button[@type='button'])[3]], Object 'Get Total' Found in 32 ms
+[DONE]   | Clicking on Get Total
+
+===================================================================================================
+
+Step:11  | Object: Result | Action: assertElementTextContains | Input: Input_Forms:Result | Conditon:  | @09-Aug-2019 15:44:24.024
+Using @id [displayvalue], Object 'Result' Found in 46 ms
+[PASS]   | Result's Text CONTAINS 5 
+
+===================================================================================================
+
+Running Iteration 2
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 8790
+Only local connections are allowed.
+
+---------------------------------------------------
+Testcase Name        : Input_Forms:NewTestCase
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:38
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : Input_Forms:CheckBox_Demo
+Executed Steps       : 9
+Passed Steps         : 9
+Failed Steps         : 0
+Time Taken           : 00:00:39
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+2019-08-09 15:44:39:08S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.seleniumeasy.com/test/basic-first-form-demo.html | Conditon:  | @09-Aug-2019 15:44:39.039
+[DONE]   | Opened Url: https://www.seleniumeasy.com/test/basic-first-form-demo.html
+
+===================================================================================================
+
+Step:2   | Object: Enter message | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:41.041
+Using @id [user-message], Object 'Enter message' Found in 66 ms
+[DONE]   | Clicking on Enter message
+
+===================================================================================================
+
+Step:3   | Object: Enter message | Action: Set | Input: Input_Forms:Message | Conditon:  | @09-Aug-2019 15:44:42.042
+Using @id [user-message], Object 'Enter message' Found in 56 ms
+[DONE]   | Entered Text 'How are you finding CITS?' on 'Enter message'
+
+===================================================================================================
+
+Step:4   | Object: Show Message | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:42.042
+Using @relative_xpath [(//button[@type='button'])[2]], Object 'Show Message' Found in 50 ms
+[DONE]   | Clicking on Show Message
+
+===================================================================================================
+
+Step:5   | Object: This is CITS demonstration | Action: assertElementTextContains | Input: Input_Forms:Message | Conditon:  | @09-Aug-2019 15:44:43.043
+Using @id [display], Object 'This is CITS demonstration' Found in 51 ms
+[PASS]   | This is CITS demonstration's Text CONTAINS How are you finding CITS? 
+
+===================================================================================================
+
+Step:6   | Object: Enter a | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:46.046
+Using @id [sum1], Object 'Enter a' Found in 29 ms
+[DONE]   | Clicking on Enter a
+
+===================================================================================================
+
+Step:7   | Object: Enter a | Action: Set | Input: Input_Forms:Value_a | Conditon:  | @09-Aug-2019 15:44:47.047
+Using @id [sum1], Object 'Enter a' Found in 31 ms
+[DONE]   | Entered Text '4' on 'Enter a'
+
+===================================================================================================
+
+Step:8   | Object: Enter b | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:47.047
+Using @id [sum2], Object 'Enter b' Found in 46 ms
+[DONE]   | Clicking on Enter b
+
+===================================================================================================
+
+Step:9   | Object: Enter b | Action: Set | Input: Input_Forms:Value_b | Conditon:  | @09-Aug-2019 15:44:47.047
+Using @id [sum2], Object 'Enter b' Found in 21 ms
+[DONE]   | Entered Text '5' on 'Enter b'
+
+===================================================================================================
+
+Step:10  | Object: Get Total | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:44:47.047
+Using @relative_xpath [(//button[@type='button'])[3]], Object 'Get Total' Found in 30 ms
+[DONE]   | Clicking on Get Total
+
+===================================================================================================
+
+Step:11  | Object: Result | Action: assertElementTextContains | Input: Input_Forms:Result | Conditon:  | @09-Aug-2019 15:44:47.047
+Using @id [displayvalue], Object 'Result' Found in 47 ms
+[PASS]   | Result's Text CONTAINS 9 
+
+===================================================================================================
+
+Running Iteration 3
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 34896
+Only local connections are allowed.
+2019-08-09 15:44:57:08S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.seleniumeasy.com/test/basic-first-form-demo.html | Conditon:  | @09-Aug-2019 15:44:57.057
+[DONE]   | Opened Url: https://www.seleniumeasy.com/test/basic-first-form-demo.html
+
+===================================================================================================
+
+Step:2   | Object: Enter message | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:45:00.000
+Using @id [user-message], Object 'Enter message' Found in 47 ms
+[DONE]   | Clicking on Enter message
+
+===================================================================================================
+
+Step:3   | Object: Enter message | Action: Set | Input: Input_Forms:Message | Conditon:  | @09-Aug-2019 15:45:00.000
+Using @id [user-message], Object 'Enter message' Found in 42 ms
+[DONE]   | Entered Text 'CITS is doing very well' on 'Enter message'
+
+===================================================================================================
+
+Step:4   | Object: Show Message | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:45:01.001
+Using @relative_xpath [(//button[@type='button'])[2]], Object 'Show Message' Found in 32 ms
+[DONE]   | Clicking on Show Message
+
+===================================================================================================
+
+Step:5   | Object: This is CITS demonstration | Action: assertElementTextContains | Input: Input_Forms:Message | Conditon:  | @09-Aug-2019 15:45:01.001
+Using @id [display], Object 'This is CITS demonstration' Found in 75 ms
+[PASS]   | This is CITS demonstration's Text CONTAINS CITS is doing very well 
+
+===================================================================================================
+
+Step:6   | Object: Enter a | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:45:04.004
+Using @id [sum1], Object 'Enter a' Found in 23 ms
+[DONE]   | Clicking on Enter a
+
+===================================================================================================
+
+Step:7   | Object: Enter a | Action: Set | Input: Input_Forms:Value_a | Conditon:  | @09-Aug-2019 15:45:05.005
+Using @id [sum1], Object 'Enter a' Found in 51 ms
+[DONE]   | Entered Text '4' on 'Enter a'
+
+===================================================================================================
+
+Step:8   | Object: Enter b | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:45:05.005
+Using @id [sum2], Object 'Enter b' Found in 55 ms
+[DONE]   | Clicking on Enter b
+
+===================================================================================================
+
+Step:9   | Object: Enter b | Action: Set | Input: Input_Forms:Value_b | Conditon:  | @09-Aug-2019 15:45:05.005
+Using @id [sum2], Object 'Enter b' Found in 28 ms
+[DONE]   | Entered Text '10' on 'Enter b'
+
+===================================================================================================
+
+Step:10  | Object: Get Total | Action: Click | Input:  | Conditon:  | @09-Aug-2019 15:45:05.005
+Using @relative_xpath [(//button[@type='button'])[3]], Object 'Get Total' Found in 24 ms
+[DONE]   | Clicking on Get Total
+
+===================================================================================================
+
+Step:11  | Object: Result | Action: assertElementTextContains | Input: Input_Forms:Result | Conditon:  | @09-Aug-2019 15:45:06.006
+Using @id [displayvalue], Object 'Result' Found in 45 ms
+[PASS]   | Result's Text CONTAINS 14 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Input_Forms:Simple_Form_Demo
+Executed Steps       : 11
+Passed Steps         : 33
+Failed Steps         : 0
+Time Taken           : 00:01:16
+-----------------------------------------------------
+
+Shutting Down Thread as there is no IE Browser to do SelectiveThreading
+Run Finished on Fri Aug 09 15:45:11 BST 2019
+-----------------------------------------------------
+ExecutionDate        : 09-Aug-2019 15-43-54
+Executed TestCases   : 3
+Passed TestCases     : 3
+Failed TestCases     : 0
+Time Taken           : 00:01:16
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1\Projects\Demo_CITS\Results\TestExecution\Release_1\Input_Forms\09-Aug-2019 15-43-54\summary.html
+-----------------------------------------------------

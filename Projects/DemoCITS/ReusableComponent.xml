@@ -1,7 +1,0 @@
-<Root ref="DemoCITS" type="RC">
-<Folder ref="New Group">
-<Scenario ref="Login">
-<TestCase exeType="Executable" ref="Login_ReUse"/>
-</Scenario>
-</Folder>
-</Root>

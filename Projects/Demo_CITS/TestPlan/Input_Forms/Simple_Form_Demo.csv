@@ -1,0 +1,12 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.seleniumeasy.com/test/basic-first-form-demo.html,,
+2,Enter message,"Click the [<Object>] ",Click,,,Simple_Form
+3,Enter message,Enter the value [<Data>] in the Field [<Object>],Set,Simple_Forms:Message,,Simple_Form
+4,Show Message,"Click the [<Object>] ",Click,,,Simple_Form
+5,This is CITS demonstration,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,Simple_Forms:Message,,Simple_Form
+6,Enter a,"Click the [<Object>] ",Click,,,Simple_Form
+7,Enter a,Enter the value [<Data>] in the Field [<Object>],Set,Simple_Forms:Value_a,,Simple_Form
+8,Enter b,"Click the [<Object>] ",Click,,,Simple_Form
+9,Enter b,Enter the value [<Data>] in the Field [<Object>],Set,Simple_Forms:Value_b,,Simple_Form
+10,Get Total,"Click the [<Object>] ",Click,,,Simple_Form
+11,Result,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,Simple_Forms:Result,,Simple_Form
